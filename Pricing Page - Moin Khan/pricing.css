@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.pricing_top {
+  font-size: 24px;
+  width: 90.81px;
+  height: 27.31;
+  margin: 150px auto auto auto;
+  color: #2e3136;
+}
+h1 {
+  line-height: 1.35;
+  text-align: center;
+  color: #24282f;
+  font-size: 42px;
+  width: 55%;
+  margin: 25px auto auto auto;
+}
+.toggle {
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 80px;
+  border: 1px solid black;
+  width: 18%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: space-around;
+}
+.toggle > p {
+    cursor: pointer;
+  display: inline;
+  font-size: 18px;
+  position :relative;
+}
+    
+.toggle .active{
+    background-color: rgb(47, 46, 53);
+    color: white;
+    padding: 18px 23px;
+    border-radius: 100px;
+}
+/* Plans container */
+.container .box-container .box .price.year{
+  display: none;
+}
+.box-container{
+    display: flex;
+    width: 75%;
+    height: 450px;
+    margin:40px auto 40px auto;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+.box-container .box{
+    border: 1px solid black;
+    width: 22%;
+    height: 95%;
+    padding: 60px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.box-container .box p{
+    font-size: 13px;
+  color: #24282f;
+}
+.box .btn {
+    margin-top: 50px;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 1px solid rgb(77, 77, 255);
+    color: rgb(95, 95, 255);
+    background-color: white;
+  }
+  
+  .box p{
+    margin-top: 10px;
+  }
+  span {
+    font-size: 18px;
+  }
+  .box .ptag{
+    font-size: 13px;
+  }
+  h4{
+    color: rgb(95, 95, 255);
+  }
+
+.box .btn:hover {
+  background-color: rgb(80, 80, 255);
+  color: white;
+  cursor: pointer;
+}
+
+.box .price1{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.box .price2,.price3{
+    margin-top: 25px;
+    font-size: 22px;
+}
+.box .btn{
+    margin-top: 90px;
+}
+.box .btn4{
+    margin-top: 118px;
+}
+.box .btn_spe{
+  background-color: rgb(95, 95, 236);
+  color: #fff;
+}
+.box > h4{
+    margin-top: -25px;
+    width: 62%;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(92, 92, 206);
+    color: white;
+    border-radius: 30px;
+}
+/* List of plan details start */
+.list{
+    display: flex;
+    width: 75%;
+    margin:-50px auto auto auto;
+    gap: 20px;
+}
+.list>div{
+    width: 22%;
+    height: 88%;
+}
+.list .title {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+i{
+    color: green;
+}
+p{
+    font-size: 13px;
+}
+.title .ta{
+    color: grey;
+    font-size: 13px;
+}
+.box-container .box .btn_curr{
+  background-color: #6666ff;
+  color: #fff;
+  opacity: 0.5;
+  cursor :no-drop;
+}
+
+/* Completed plans div */
+#middle {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 100px;
+  font-weight: lighter;
+  margin-top:40px;
+}
+#compare {
+  width: 28%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 60px;
+}
+#compare > button {
+  margin-top: -20px;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  border: 1px solid rgb(77, 77, 255);
+  color: rgb(95, 95, 255);
+  background-color: transparent;
+}
+#compare > .or {
+  margin: 0 20px;
+  font-weight: bolder;
+}
+#compare > button:last-child {
+  background-color: rgb(80, 80, 255);
+  color: white;
+  cursor: pointer;
+}
+
+#compare > button:first-child:hover {
+  background-color: rgb(80, 80, 255);
+  color: white;
+  cursor: pointer;
+}
+
+
+/* Top section done */
+
+/* ---------------------------Review Section starting here------------------------ */
+
+.review_container{
+  width: 100%;
+  /* height: 1000px; */
+  background-color: #F5F5F5;
+}
+.review_container .cont{
+  width: 80%;
+  /* height: 700px; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  margin: 50px auto;
+  gap: 50px 8px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.review_container .review_box{
+  /* border: 1px solid black; */
+  /* height: 100%; */
+  width: 95%;
+  margin-top: 50px;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 38px;
+}
+.review_box>img{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  margin-top: -70px;
+  padding: 5px;
+  border: 2px solid #fff;
+  background-color: #F5F5F5;
+}
+.review_box > p{
+  font-size: 18px;
+  font-weight: lighter;
+}
+.review_box>p+p{
+  font-size: 15px;
+  color: grey;
+  margin-top: 25px;
+}
+
+/* ---------------------------------------Review Box Done---------------------------------------- */
+
+#second_plan{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  color: rgb(42, 42, 42);
+}
+.smallPlan_box{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  /* margin-bottom: 15px; */
+  padding-right: 170px;
+}
+.smallPlan_box .small_box{
+  width: 15%;
+  height: 100%;
+  /* border: 1px solid  black; */
+  padding: 20px 20px;
+  text-align: center;
+  line-height: 35px;
+  /* margin-left: -20px; */
+}
+.small_box>h2{
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(55, 54, 54);
+}
+.small_box>p{
+  font-size: 16px;
+  color: rgb(54, 54, 54);
+  font-weight: lighter;
+}
+.small_box>button{
+  width: 70%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  border: 1px solid rgb(77, 77, 255);
+  color: rgb(95, 95, 255);
+  background-color: white;
+  margin-top: 15px;
+}
+.small_box>button:hover{
+  background-color: rgb(80, 80, 255);
+  color: white;
+  cursor: pointer;
+}
+.smallPlan_box .small_box:nth-child(3)>button{
+  background-color: rgb(90, 90, 248);
+  color: white;
+}
+.smallPlan_box .small_box .btn_curr2{
+  background-color: #6666ff;
+  color: #fff;
+  opacity: 0.5;
+  cursor :no-drop;
+}
+.dark_line{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 80px;
+  box-shadow: #43475545 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  margin-top: -10px;
+}
+
+/*------------------------------------- Small Planing div done------------------------------------------*/
+
+/*-------------------------------------- Table Part start---------------------------------------------- */
+
+.table_div{
+  width: 80%;
+  margin: auto;
+  line-height: 60px;
+}
+td{
+  padding-left: 20px;
+}
+tr>td:first-child{
+  padding-right: 80px;
+  display: flex;
+  justify-content: left;
+}
+.padding{
+  padding: 5px 20px;
+}
+table{
+  width: 100%;
+}
+.shaded{
+  background-color: #fafafb;
+}
+table>tbody>tr{
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+/* -----------------------------------------------FAQ part-------------------------------------------- */
+
+.faq_heading{
+  margin-top: 110px;
+  margin-bottom: 110px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: lighter;
+}
+
+.faq_div{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 100px 0px;
+  margin-bottom: 110px;
+  justify-content: space-between;
+}
+.faq_div>div{
+  line-height: 60px;
+}
+.faq_div>div>h3{
+  font-size: 23px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+}
+.faq_div>div>p{
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 27px;
+}
+/* ---------------------------------------------------Banner---------------------------------------- */
+.banner_{
+  width: 80%;
+  /* height: 550px; */
+  border-radius: 30px;
+  background: linear-gradient(to bottom, #6600ff 0%, #6666ff 100%);
+  margin: auto;
+  margin-bottom: 100px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.banner_>h1{
+  width: 68%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.banner_ .inner_banner{
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+.inner_banner>p{
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+#shakal{
+  width: 170px;
+  height: 75px;
+  border-radius: 35px;
+  font-size: 20px;
+  border: 1px solid rgb(77, 77, 255);
+  color: rgb(95, 95, 255);
+  background-color: white;
+  cursor: pointer;
+}
+
+/* -------------------------------------------Banner End ---------------------------------------------------- */

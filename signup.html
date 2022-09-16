@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="form.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="lgn">
+      <div>
+        <img src="lk.png" alt="" />
+      </div>
+      <div>
+        <form action="">
+          <h1>Get started with a free account</h1>
+          <label for="">Full Name</label>
+          <input type="text" id="name" placeholder="" required />
+          <label for="">Work Email</label>
+          <input type="text" id="email" required/>
+         <label for="pwd1">Password</label>
+<input type="Password" id="password"
+onBlur="valuate(this)" />
+<div class="checkbox"><input type="checkbox">Check Password strength</div>
+<center><p>Password should be strong and contain atleast(a-z) char & (0-9) numbers or (@,#,%,$)</p></center>
+          <center>
+           <div id="showStrength"></div></center>
+          <input id="btn" type="submit" value="Create Account" />
+          <p>OR</p>
+          <input  type="submit" value="Sign up with Facebook" />
+        </form>
+        <div class="redr">
+          <p>Already have a Lumen5 account?</p>
+          <a style="font-weight: bold" href="login.html">Log in</a>
+        </div>
+        <p class="lef">
+          By clicking “Create account” I agree to Lumen5’s Terms of Use and
+          <a href="">Privacy Policy</a>
+          .
+        </p>
+      </div>
+      <div class="rif"><img class="home" src="logo.png" alt="" /></div>
+    </div>
+  </body>
+</html>
+<script src="./scripts/signup.js"></script>

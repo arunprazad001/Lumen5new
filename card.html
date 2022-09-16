@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Section</title>
+    <link rel="stylesheet" href="./pay_css/mje.css" />
+  </head>
+  <body>
+    <div id="pay">
+      <div id="paise">
+        <img class="logoo" src="logo.png" alt="" onclick="dabao_img()" />
+        <div>
+          <h2>Subscribe to Starter- v2(Monthly)</h2>
+          <h1 id="laao"></h1>
+        </div>
+        <div class="allM">
+          <div>
+            <h4>Subscribe to Starter- v2(Monthly)</h4>
+            <h5 class="lto"></h5>
+          </div>
+          <div>
+            <h4>Subtotal</h4>
+            <h5 class="lto2"></h5>
+          </div>
+          <div>
+            <p>Tax!</p>
+            <p>US$0.00</p>
+          </div>
+          <div id="voxshad">
+            <h4>Total due today</h4>
+            <h3 style="color:red"  class="lto3"></h3>
+          </div>
+        </div>
+      </div>
+      <div id="debit">
+        <div>
+          <div><h2 id="h2">Pay with Card</h2></div>
+          <div><img src="cards.jpg" alt="" /></div>
+        </div>
+
+        <div class="email">
+          <span>Email</span><span class="mop"> shivammoudgil358@gmail.com</span>
+        </div>
+        <form action="">
+          <label for="">Card Information</label>
+          <input type="text" name="cardno" maxlength="16" id="cardno" />
+          <div class="float">
+            <div><label for="">Valid Till </label><input type="month" /></div>
+            <div>
+              <label for="">CVV </label
+              ><input id="cvv" type="text" maxlength="3" />
+            </div>
+          </div>
+          <label for="">Name on Card</label>
+          <input type="text" />
+          <label for="">Country or region</label>
+          <select name="" id="">
+            <option value="">INDIA</option>
+            <option value="">USA</option>
+            <option value="">UK</option>
+            <option value="">RUSSIA</option>
+            <option value="">CHINA</option>
+          </select>
+
+          <div>
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <p>Save my info for secure 1-click checkout</p>
+          </div>
+
+          <input style="cursor: pointer;" id="submit" type="submit" value="Subscribe" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./payjs/pay.js"></script>
